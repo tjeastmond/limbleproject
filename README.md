@@ -19,14 +19,6 @@ After the initial setup, just run the following command to start the server next
 docker compose start
 ```
 
-### The Migration
-The migration that runs will create tables and seed the database with some initial data. If you want to run the migration again, you can just run:
-
-```bash
-docker compose migration
-```
-The bash script was updated to drop table before creating it, so you can run the migration multiple times without any issues.
-
 ## Using the API
 
 There are a few endpoints that you can use to interact with the API. The base URL can be found in your terminal after running the `docker compose` commands. The endpoints are as follows:
