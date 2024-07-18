@@ -30,7 +30,7 @@ There are a few endpoints that you can use to interact with the API. The base UR
 
 ### Filtering
 
-You can filter the results by adding query parameters to the URL. The three filters available are `locations`, `works`, and `tasks`. When filtering `locations` and `workers`, you use a comma seperated string of numbers in the query parameter. For example, to filter by location 1 and 2, you would use the following URL:
+You can filter the results by adding query parameters to the URL. The three filters available are `locations`, `workers`, and `tasks`. When filtering `locations` and `workers`, you use a comma seperated string of numbers in the query parameter. For example, to filter by location 1 and 2, you would use the following URL:
 
 ```
 https://localhost:3000/wages/workers?location=1,2
